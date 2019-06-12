@@ -4,7 +4,17 @@
     "sources": [
         "app.scss",
         "pages/home.scss",
-        "pages/contact.scss"
+        "pages/contact.scss",
+        "components/button.scss",
+        "components/card.scss",
+        "components/container.scss",
+        "components/footer.scss",
+        "components/header.scss",
+        "components/image.scss",
+        "components/navbar.scss",
+        "mixins/mixins.scss",
+        "mixins/parameters.scss",
+        "responsive/responsive.scss"
     ],
     "names": [],
     "file": "app.css"

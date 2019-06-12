@@ -3,5 +3,17 @@
 @import 'pages/contact';
 
 // Components
+@import 'components/button';
+@import 'components/card';
+@import 'components/container';
+@import 'components/footer';
+@import 'components/header';
+@import 'components/image';
+@import 'components/navbar';
+
 // Mixins
+@import 'mixins/mixins';
+@import 'mixins/parameters';
+
 // Responsive display/layout
+@import 'responsive/responsive';
