@@ -1,1 +1,20 @@
-/* No CSS *//*# sourceMappingURL=app.css.map */
+.homepage-footer {
+  width: auto;
+  text-align: center;
+  margin: 0px;
+  padding: 30px;
+  background-color: #6A5ACD;
+  color: #FFFFFF;
+}
+
+.image-container {
+  width: auto;
+  padding: 30px 25%;
+}
+
+.self-image {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+/*# sourceMappingURL=app.css.map */
