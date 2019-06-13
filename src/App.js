@@ -4,6 +4,7 @@ import Header from './components/Header';
 import SelfImage from "./components/SelfImage";
 import ImageSource from './assets/images/august-background.jpg';
 import AboutMe from './components/AboutMe';
+import Skills from './components/Skills';
 import Footer from './components/Footer';
 
 import './assets/css/reset.css';
@@ -16,7 +17,7 @@ function App() {
         <SelfImage imageSource={ImageSource} />
       </Header>
       <AboutMe>
-        
+        <Skills />
       </AboutMe>
       <Footer />
     </Home>
