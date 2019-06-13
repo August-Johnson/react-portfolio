@@ -1,6 +1,6 @@
-@mixin primary-color-scheme($background, $text) {
-    background-color: $background;
-    color: $text;
+@mixin primary-color-scheme {
+    background-color: map-get($colors, primary-bg);
+    color: map-get($colors, primary);
 }
 
 @mixin secondary-color-scheme {

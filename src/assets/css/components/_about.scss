@@ -1,0 +1,15 @@
+.about-container {
+    @include secondary-color-scheme;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 150%;
+    padding: 15px 20%;
+    line-height: 1.4;
+}
+
+.about-header {
+    font-size: 160%;
+    font-weight: 600;
+    padding-top: 70px;
+    margin-bottom: 25px;
+}
