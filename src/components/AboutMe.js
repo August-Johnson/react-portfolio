@@ -3,7 +3,7 @@ import React from 'react';
 function AboutMe(props) {
     return (
         <div className="about-container">
-            <h2 className="about-header">About Me</h2>
+            <h2 className="about-header">A Little About Me and My Background</h2>
             <p>
                 My name is August but I usually just go by Gus. When I graduated high school in 2016, I didn't know where to go next.
                  I didn't really have a set career path that interested me so while I was figuring out what I wanted to do in life, I decided to work at Lunds & Byerlys in the meantime.

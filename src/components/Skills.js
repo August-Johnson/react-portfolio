@@ -13,6 +13,7 @@ function Skills() {
                     <li>CSS3</li>
                     <li>JavaScript (ES5 and ES6)</li>
                 </ul>
+                <br />
                 <h4>Libraries and Frameworks</h4>
                 <ul>
                     <li>ReactJS</li>
@@ -32,10 +33,35 @@ function Skills() {
                     <li>Express.Js</li>
                     <li>MySQL</li>
                     <li>MongoDB</li>
-                    <li>Database ORMs and ODMs (Sequelize and Mongoose)</li>
+                </ul>
+                <br />
+                <h4>Libraries and tools</h4>
+                <ul>
+                    <li>Sequelize (MySQL ORM)</li>
+                    <li>Mongoose (MongoDB ODM)</li>
                 </ul>
             </div>
-            <div className="skill-column"></div>
+
+            <div className="skill-column">
+                <h3>Other Skills and More</h3>
+                <p>Other technology and tools I know and use, along with what I'm currently trying to learn</p>
+                <br />
+
+                <h4>Developer Tools</h4>
+                <ul>
+                    <li>Git Bash</li>
+                    <li>GitHub</li>
+                    <li>Command Line</li>
+                </ul>
+                <br />
+                <h4>Currently Learning</h4>
+                <ul>
+                    <li>Redux</li>
+                    <li>Java</li>
+                    <li>C#</li>
+                </ul>
+            </div>
+
         </div>
     );
 }
