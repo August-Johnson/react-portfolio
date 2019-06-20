@@ -2,9 +2,7 @@
   background-color: #8A2BE2;
   color: #FFFAFA;
   font-family: Arial, Helvetica, sans-serif;
-  position: relative;
   line-height: 1.6;
-  height: 600px;
   text-align: center;
   font-size: 145%;
   padding: 15px 20%;
@@ -17,6 +15,10 @@
   margin-bottom: 25px;
 }
 
+body {
+  background-color: #8A2BE2;
+}
+
 .homepage-footer {
   width: auto;
   text-align: center;
@@ -27,17 +29,20 @@
 }
 
 .intro-header {
+  background-color: #FFFFFF;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
   font-size: 180%;
   font-weight: 500;
   padding-top: 100px;
   position: relative;
+  margin-top: 0px;
   margin-bottom: 150px;
+  padding-bottom: 90px;
 }
 
 .intro-header h1 {
-  font-weight: 800;
+  font-weight: 600;
   font-size: 150%;
   padding-bottom: 35px;
 }
@@ -60,19 +65,21 @@
 .skills-container {
   background-color: #FFFFFF;
   color: #000000;
-  position: absolute;
-  left: 10%;
-  top: 88%;
-  width: 80%;
+  font-family: Arial, Helvetica, sans-serif;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  line-height: 1.6;
+  text-align: center;
+  font-size: 145%;
+  padding: 15px 20%;
   border-radius: 10px;
   margin: 0px auto;
 }
 
 .skill-column {
   width: 33%;
+  height: 675px;
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
@@ -92,16 +99,39 @@
 
 .skill-column h4 {
   color: #8A2BE2;
-  margin-top: 60px;
+  margin-top: 45px;
 }
 
 .skill-column p {
   font-size: 90%;
-  padding: 0px 50px;
-  height: 50px;
+  padding: 0px 40px;
+  height: 40px;
 }
 
 .skill-column ul {
   height: 90px;
+}
+
+@media screen and (min-width: 900px) {
+  .intro-header {
+    font-size: 200%;
+    margin-bottom: 120px;
+  }
+  .intro-header h1 {
+    font-size: 155%;
+    margin-bottom: 40px;
+  }
+  .image-container {
+    width: 22%;
+    top: 75%;
+    left: 39%;
+  }
+  .about-container {
+    font-size: 140%;
+  }
+  .about-header {
+    font-size: 170%;
+    padding-top: 150px;
+  }
 }
 /*# sourceMappingURL=app.css.map */

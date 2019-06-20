@@ -16,9 +16,8 @@ function App() {
       <Header>
         <SelfImage imageSource={ImageSource} />
       </Header>
-      <AboutMe>
+      <AboutMe />
         <Skills />
-      </AboutMe>
       <Footer />
     </Home>
   );

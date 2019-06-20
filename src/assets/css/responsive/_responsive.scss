@@ -1,0 +1,30 @@
+$break-medium: 900px;
+$break-large: 1200px;
+$break-xl: 1800px;
+
+@media screen and (min-width: $break-medium) {
+    .intro-header {
+        font-size: 200%;
+        margin-bottom: 120px;
+    }
+
+    .intro-header h1 {
+        font-size: 155%;
+        margin-bottom: 40px;
+    }
+
+    .image-container {
+        width: 22%;
+        top: 75%;
+        left: 39%;
+    }
+
+    .about-container {
+        font-size: 140%;
+    }
+
+    .about-header {
+        font-size: 170%; 
+        padding-top: 150px;  
+    }
+}
