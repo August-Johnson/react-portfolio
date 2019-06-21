@@ -10,7 +10,6 @@ function AboutMe() {
                  Once I discovered programming I knew that it was something I wanted to pursue more of. It's fun to be constantly learning new things and ways to problem solve. 
                  I attended the University of Minnesota's Full-Stack Coding Boot Camp and graduated as part of the 10th Cohort in May 2019 with a passion and determination to further my skillset.
             </p>
-            {/* {props.children} */}
         </div>
     );
 }
