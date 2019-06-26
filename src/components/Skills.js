@@ -44,7 +44,7 @@ function Skills() {
 
             <div className="skill-column">
                 <h3>Other Skills and More</h3>
-                <p>Other technology and tools I know and use, along with what I'm currently trying to learn</p>
+                <p>Technologies I know and use, along with what I'm currently trying to learn</p>
                 <br />
 
                 <h4>Developer Tools</h4>
@@ -59,6 +59,8 @@ function Skills() {
                     <li>Redux</li>
                     <li>Java</li>
                     <li>C#</li>
+                    <li>Calculus</li>
+                    <li>Computer Science basics</li>
                 </ul>
             </div>
 
