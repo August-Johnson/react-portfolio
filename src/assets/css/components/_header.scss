@@ -1,18 +1,15 @@
 .intro-header {
     background-color: map-get($colors, primary-bg);
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    font-size: 180%;
-    font-weight: 500;
-    padding-top: 100px;
     position: relative;
-    margin-top: 0px;
-    margin-bottom: 150px;
-    padding-bottom: 90px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 155%;
+    padding: 100px 8px 70px 8px;
+    margin-bottom: 50px;
 }
 
 .intro-header h1 {
     font-weight: 600;
-    font-size: 150%;
-    padding-bottom: 35px;
+    font-size: 160%;
+    padding-bottom: 50px;
 }
