@@ -99,10 +99,7 @@ body {
 .skills-container {
   background-color: #FFFFFF;
   color: #000000;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 80%;
+  width: 85%;
   font-size: 130%;
   text-align: center;
   line-height: 1.6;
@@ -113,11 +110,9 @@ body {
 }
 
 .skill-column {
-  width: 33%;
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
-  border-right: 1px solid #DCDCDC;
+  width: 100%;
+  border-bottom: 1px solid #DCDCDC;
+  padding-bottom: 15px;
 }
 
 .skill-column:last-child {
@@ -128,19 +123,19 @@ body {
   font-size: 140%;
   font-weight: 550;
   margin-bottom: 20px;
-  padding-top: 30px;
+  padding-top: 20px;
 }
 
 .skill-column h4 {
+  font-size: 120%;
   color: #8A2BE2;
-  font-size: 115%;
-  margin-bottom: 10px;
+  margin-top: 10px;
 }
 
 .skill-column p {
-  font-size: 90%;
-  padding: 0px 20px;
-  margin-bottom: 25px;
+  font-size: 100%;
+  padding: 5px 10px;
+  margin-bottom: 5px;
 }
 
 @media screen and (min-width: 900px) {

@@ -11,6 +11,10 @@ import Footer from './components/Footer';
 
 import ProjectImageOne from './assets/images/project-1.png';
 
+import EmailLogo from './assets/images/email-icon.png';
+import GitHubLogo from './assets/images/GitHub-Mark-120px-plus.png';
+import LinkedInLogo from './assets/images/LI-In-Bug.png';
+
 import './assets/css/reset.css';
 import './assets/css/app.css';
 
@@ -25,7 +29,7 @@ function App() {
       <ProjectContainer>
         <ProjectCard imageSrc={ProjectImageOne} projectTitle={"When I was 18"} projectDescription={""} projectLink={"https://sindygeb.github.io/incredible-ninjas/"} githubLink={"https://github.com/sindygeb/incredible-ninjas"} />
       </ProjectContainer>
-      <Footer />
+      <Footer emailLogo={EmailLogo} githubLogo={GitHubLogo} linkedInLogo={LinkedInLogo} />
     </Home>
   );
 }
